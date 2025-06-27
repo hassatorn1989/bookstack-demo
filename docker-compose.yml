@@ -41,8 +41,8 @@ services:
       - DB_HOST=mariadb
       - DB_PORT=3306
       - DB_DATABASE=bookstack
-      - DB_USERNAME=bookstackSRD
-      - DB_PASSWORD=bookstackSRD8432
+      - DB_USERNAME=bookstackDemo
+      - DB_PASSWORD=bookstackDemo8432
     volumes:
       # You generally only ever need to map this one volume.
       # This maps it to a "bookstack_app_data" folder in the same
@@ -72,8 +72,8 @@ services:
       # with the DB_* options for the BookStack container.
       - MYSQL_ROOT_PASSWORD=root@bookstack
       - MYSQL_DATABASE=bookstack
-      - MYSQL_USER=bookstackSRD
-      - MYSQL_PASSWORD=bookstackSRD8432
+      - MYSQL_USER=bookstackDemo
+      - MYSQL_PASSWORD=bookstackDemo8432
     volumes:
       # You generally only ever need to map this one volume.
       # This maps it to a "bookstack_db_data" folder in the same
